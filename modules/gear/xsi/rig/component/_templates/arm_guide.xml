@@ -1,0 +1,691 @@
+<guide date="2010-11-11 12:50:32.057439" description="shoulder + arm + meta + 5 fingers" name="arm_L0_elbow" user="jeremie-p" version="1.0">
+ <options>
+  <parameter scriptName="setUnselectable" value="True" valueType="11" />
+  <parameter scriptName="synoptic_select" value="" valueType="8" />
+  <parameter scriptName="L_color_ik_r" value="0.75" valueType="5" />
+  <parameter scriptName="synoptic" value="" valueType="8" />
+  <parameter scriptName="setHidden" value="True" valueType="11" />
+  <parameter scriptName="geo_path" value="" valueType="8" />
+  <parameter scriptName="negate" value="0" valueType="3" />
+  <parameter scriptName="L_color_ik_g" value="0.5" valueType="5" />
+  <parameter scriptName="L_color_ik_b" value="0.0" valueType="5" />
+  <parameter scriptName="shadowRig" value="False" valueType="11" />
+  <parameter scriptName="C_color_ik_b" value="0.75" valueType="5" />
+  <parameter scriptName="skin_path" value="" valueType="8" />
+  <parameter scriptName="C_color_ik_g" value="0.25" valueType="5" />
+  <parameter scriptName="synoptic_list" value="_common/chicken_body" valueType="8" />
+  <parameter scriptName="popUpControls" value="False" valueType="11" />
+  <parameter scriptName="inspectSettings" value="guide.arm_L0_root.settings" valueType="8" />
+  <parameter scriptName="comments" value="" valueType="8" />
+  <parameter scriptName="C_color_ik_r" value="0.75" valueType="5" />
+  <parameter scriptName="prod_name" value="_common" valueType="8" />
+  <parameter scriptName="R_color_ik_r" value="0.0" valueType="5" />
+  <parameter scriptName="rigName" value="rig" valueType="8" />
+  <parameter scriptName="C_color_fk_r" value="0.5" valueType="5" />
+  <parameter scriptName="R_color_ik_b" value="0.75" valueType="5" />
+  <parameter scriptName="R_color_ik_g" value="0.5" valueType="5" />
+  <parameter scriptName="C_color_fk_g" value="0.0" valueType="5" />
+  <parameter scriptName="C_color_fk_b" value="0.5" valueType="5" />
+  <parameter scriptName="addGeometry" value="False" valueType="11" />
+  <parameter scriptName="L_color_fk_b" value="0.0" valueType="5" />
+  <parameter scriptName="R_color_fk_b" value="0.75" valueType="5" />
+  <parameter scriptName="L_color_fk_g" value="0.0" valueType="5" />
+  <parameter scriptName="R_color_fk_g" value="0.0" valueType="5" />
+  <parameter scriptName="step" value="-1" valueType="3" />
+  <parameter scriptName="isolateResult" value="False" valueType="11" />
+  <parameter scriptName="L_color_fk_r" value="0.75" valueType="5" />
+  <parameter scriptName="R_color_fk_r" value="0.0" valueType="5" />
+  <parameter scriptName="mode" value="0" valueType="3" />
+  <parameter scriptName="setDeformers" value="True" valueType="11" />
+ </options>
+ <controlers />
+ <component name="arm_L0" parent="None" root_size="0.3" type="arm_2jnt_01">
+  <settings>
+   <parameter scriptName="ikrefarray" value="" valueType="8" />
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="maxstretch" value="1.5" valueType="5" />
+   <parameter scriptName="upvref" value="0" valueType="3" />
+   <parameter scriptName="comp_side" value="L" valueType="8" />
+   <parameter scriptName="comp_type" value="arm_2jnt_01" valueType="8" />
+   <parameter scriptName="ikref" value="0" valueType="3" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="upvrefarray" value="" valueType="8" />
+   <fcurveparameter extrapolation="1" interpolation="3" keys="0.0,10.0,-13.3333333333,0.0,13.3333333333,0.0,3;40.0,100.0,-13.3333333333,0.0,20.0,0.0,3;100.0,10.0,-20.0,0.0,20.0,0.0,3" scriptName="sq_profile" />
+   <parameter scriptName="comp_name" value="arm" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="" valueType="8" />
+   <fcurveparameter extrapolation="1" interpolation="3" keys="0.0,-25.0,-13.3333333333,0.0,13.3333333333,0.0,3;40.0,-100.0,-13.3333333333,0.0,20.0,0.0,3;100.0,-10.0,-20.0,0.0,20.0,0.0,3" scriptName="st_profile" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="blend" value="0" valueType="3" />
+   <parameter scriptName="fcurvecombo" value="0" valueType="3" />
+   <parameter scriptName="div1" value="2" valueType="3" />
+   <parameter scriptName="div0" value="2" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="guide.arm_L0_elbow" id="1381" localName="elbow" model="guide" name="arm_L0_elbow" owners="guide.arm_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="6.31572061593" valueType="5" />
+      <parameter scriptName="posy" value="7.37817457803" valueType="5" />
+      <parameter scriptName="posz" value="-0.678493310385" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.arm_L0_wrist" id="1394" localName="wrist" model="guide" name="arm_L0_wrist" owners="guide.arm_L0_elbow,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="8.59159513634" valueType="5" />
+      <parameter scriptName="posy" value="6.55946758971" valueType="5" />
+      <parameter scriptName="posz" value="0.177957793694" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.arm_L0_root" id="1366" localName="root" model="guide" name="arm_L0_root" owners="guide.shoulder_L0_0_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="3.18676885956" valueType="5" />
+      <parameter scriptName="posy" value="8.50376153201" valueType="5" />
+      <parameter scriptName="posz" value="0.0" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.arm_L0_eff" id="1407" localName="eff" model="guide" name="arm_L0_eff" owners="guide.arm_L0_wrist,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="9.86830523316" valueType="5" />
+      <parameter scriptName="posy" value="6.10019293772" valueType="5" />
+      <parameter scriptName="posz" value="0.177957793694" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="meta_L0" parent="arm_L0.wrist" root_size="0.3" type="meta_01">
+  <settings>
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="comp_side" value="L" valueType="8" />
+   <parameter scriptName="comp_type" value="meta_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="comp_name" value="meta" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="interctl" value="False" valueType="11" />
+   <parameter scriptName="startctl" value="False" valueType="11" />
+  </settings>
+  <objects>
+   <x3dobject fullName="guide.meta_L0_0_loc" id="1512" localName="0_loc" model="guide" name="meta_L0_0_loc" owners="guide.meta_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="9.24373493385" valueType="5" />
+      <parameter scriptName="posy" value="6.32487143566" valueType="5" />
+      <parameter scriptName="posz" value="0.260702754488" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.meta_L0_1_loc" id="1525" localName="1_loc" model="guide" name="meta_L0_1_loc" owners="guide.meta_L0_0_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="9.21177373524" valueType="5" />
+      <parameter scriptName="posy" value="6.33636893098" valueType="5" />
+      <parameter scriptName="posz" value="-0.101811527203" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.meta_L0_2_loc" id="1538" localName="2_loc" model="guide" name="meta_L0_2_loc" owners="guide.meta_L0_1_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="9.13719760515" valueType="5" />
+      <parameter scriptName="posy" value="6.36319642007" valueType="5" />
+      <parameter scriptName="posz" value="-0.577611521922" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.meta_L0_root" id="1499" localName="root" model="guide" name="meta_L0_root" owners="guide.arm_L0_wrist,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="9.13719760515" valueType="5" />
+      <parameter scriptName="posy" value="6.36319642007" valueType="5" />
+      <parameter scriptName="posz" value="0.725174177905" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="finger_L3" parent="meta_L0.2_loc" root_size="0.3" type="chain_01">
+  <settings>
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="comp_side" value="L" valueType="8" />
+   <parameter scriptName="comp_type" value="chain_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="blend" value="0" valueType="3" />
+   <parameter scriptName="comp_name" value="finger" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="" valueType="8" />
+   <parameter scriptName="comp_index" value="3" valueType="3" />
+   <parameter scriptName="type" value="0" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="guide.finger_L3_0_loc" id="1976" localName="0_loc" model="guide" name="finger_L3_0_loc" owners="guide.finger_L3_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="10.6351518262" valueType="5" />
+      <parameter scriptName="posy" value="5.64366206656" valueType="5" />
+      <parameter scriptName="posz" value="-0.684787030339" valueType="5" />
+      <parameter scriptName="rotx" value="-9.95556724143e-17" valueType="5" />
+      <parameter scriptName="roty" value="3.28252815833" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L3_1_loc" id="1989" localName="1_loc" model="guide" name="finger_L3_1_loc" owners="guide.finger_L3_0_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="11.0987657125" valueType="5" />
+      <parameter scriptName="posy" value="5.15680029201" valueType="5" />
+      <parameter scriptName="posz" value="-0.719259282426" valueType="5" />
+      <parameter scriptName="rotx" value="-9.95556724143e-17" valueType="5" />
+      <parameter scriptName="roty" value="3.28252815833" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L3_2_loc" id="2002" localName="2_loc" model="guide" name="finger_L3_2_loc" owners="guide.finger_L3_1_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="11.3536597002" valueType="5" />
+      <parameter scriptName="posy" value="4.68900713166" valueType="5" />
+      <parameter scriptName="posz" value="-0.742097149433" valueType="5" />
+      <parameter scriptName="rotx" value="-9.95556724143e-17" valueType="5" />
+      <parameter scriptName="roty" value="3.28252815833" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L3_blade" id="2015" localName="blade" model="guide" name="finger_L3_blade" owners="guide.finger_L3_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" source="constraint" value="10.0119697977" valueType="5" />
+      <parameter scriptName="posy" source="constraint" value="6.01988134146" valueType="5" />
+      <parameter scriptName="posz" source="constraint" value="-0.643851230986" valueType="5" />
+      <parameter scriptName="rotx" source="constraint" value="-101.316224906" valueType="5" />
+      <parameter scriptName="roty" source="constraint" value="-86.7174718417" valueType="5" />
+      <parameter scriptName="rotz" source="constraint" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L3_root" id="1963" localName="root" model="guide" name="finger_L3_root" owners="guide.meta_L0_2_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="10.0119697977" valueType="5" />
+      <parameter scriptName="posy" value="6.01988134146" valueType="5" />
+      <parameter scriptName="posz" value="-0.643851230986" valueType="5" />
+      <parameter scriptName="rotx" value="-9.95556724143e-17" valueType="5" />
+      <parameter scriptName="roty" value="3.28252815833" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="finger_L2" parent="meta_L0.1_loc" root_size="0.3" type="chain_01">
+  <settings>
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="comp_side" value="L" valueType="8" />
+   <parameter scriptName="comp_type" value="chain_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="blend" value="0" valueType="3" />
+   <parameter scriptName="comp_name" value="finger" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="" valueType="8" />
+   <parameter scriptName="comp_index" value="2" valueType="3" />
+   <parameter scriptName="type" value="0" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="guide.finger_L2_0_loc" id="1866" localName="0_loc" model="guide" name="finger_L2_0_loc" owners="guide.finger_L2_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="10.6777667577" valueType="5" />
+      <parameter scriptName="posy" value="5.6283320728" valueType="5" />
+      <parameter scriptName="posz" value="-0.141015607802" valueType="5" />
+      <parameter scriptName="rotx" value="-9.95556724143e-17" valueType="5" />
+      <parameter scriptName="roty" value="3.28252815833" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L2_1_loc" id="1879" localName="1_loc" model="guide" name="finger_L2_1_loc" owners="guide.finger_L2_0_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="11.141380644" valueType="5" />
+      <parameter scriptName="posy" value="5.14147029824" valueType="5" />
+      <parameter scriptName="posz" value="-0.175487859889" valueType="5" />
+      <parameter scriptName="rotx" value="-9.95556724143e-17" valueType="5" />
+      <parameter scriptName="roty" value="3.28252815833" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L2_2_loc" id="1892" localName="2_loc" model="guide" name="finger_L2_2_loc" owners="guide.finger_L2_1_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="11.3962746317" valueType="5" />
+      <parameter scriptName="posy" value="4.6736771379" valueType="5" />
+      <parameter scriptName="posz" value="-0.198325726896" valueType="5" />
+      <parameter scriptName="rotx" value="-9.95556724143e-17" valueType="5" />
+      <parameter scriptName="roty" value="3.28252815833" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L2_blade" id="1905" localName="blade" model="guide" name="finger_L2_blade" owners="guide.finger_L2_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" source="constraint" value="10.0545847292" valueType="5" />
+      <parameter scriptName="posy" source="constraint" value="6.00455134769" valueType="5" />
+      <parameter scriptName="posz" source="constraint" value="-0.100079808449" valueType="5" />
+      <parameter scriptName="rotx" source="constraint" value="-101.316224906" valueType="5" />
+      <parameter scriptName="roty" source="constraint" value="-86.7174718417" valueType="5" />
+      <parameter scriptName="rotz" source="constraint" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L2_root" id="1853" localName="root" model="guide" name="finger_L2_root" owners="guide.meta_L0_1_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="10.0545847292" valueType="5" />
+      <parameter scriptName="posy" value="6.00455134769" valueType="5" />
+      <parameter scriptName="posz" value="-0.100079808449" valueType="5" />
+      <parameter scriptName="rotx" value="-9.95556724143e-17" valueType="5" />
+      <parameter scriptName="roty" value="3.28252815833" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="finger_L1" parent="meta_L0.0_loc" root_size="0.3" type="chain_01">
+  <settings>
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="comp_side" value="L" valueType="8" />
+   <parameter scriptName="comp_type" value="chain_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="blend" value="0" valueType="3" />
+   <parameter scriptName="comp_name" value="finger" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="" valueType="8" />
+   <parameter scriptName="comp_index" value="1" valueType="3" />
+   <parameter scriptName="type" value="0" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="guide.finger_L1_0_loc" id="1756" localName="0_loc" model="guide" name="finger_L1_0_loc" owners="guide.finger_L1_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="10.6555769382" valueType="5" />
+      <parameter scriptName="posy" value="5.63631448137" valueType="5" />
+      <parameter scriptName="posz" value="0.351314878504" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="-4.40378000201" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L1_1_loc" id="1769" localName="1_loc" model="guide" name="finger_L1_1_loc" owners="guide.finger_L1_0_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="11.1184477898" valueType="5" />
+      <parameter scriptName="posy" value="5.14972000086" valueType="5" />
+      <parameter scriptName="posz" value="0.397541987012" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="-4.40378000201" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L1_2_loc" id="1782" localName="2_loc" model="guide" name="finger_L1_2_loc" owners="guide.finger_L1_1_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="11.3728495169" valueType="5" />
+      <parameter scriptName="posy" value="4.68210392283" valueType="5" />
+      <parameter scriptName="posz" value="0.428167446399" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="-4.40378000201" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L1_blade" id="1795" localName="blade" model="guide" name="finger_L1_blade" owners="guide.finger_L1_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" source="constraint" value="10.0332772635" valueType="5" />
+      <parameter scriptName="posy" source="constraint" value="6.01221634457" valueType="5" />
+      <parameter scriptName="posz" source="constraint" value="0.29642018715" valueType="5" />
+      <parameter scriptName="rotx" source="constraint" value="-101.316224906" valueType="5" />
+      <parameter scriptName="roty" source="constraint" value="-94.403780002" valueType="5" />
+      <parameter scriptName="rotz" source="constraint" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L1_root" id="1743" localName="root" model="guide" name="finger_L1_root" owners="guide.meta_L0_0_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="10.0332772635" valueType="5" />
+      <parameter scriptName="posy" value="6.01221634457" valueType="5" />
+      <parameter scriptName="posz" value="0.29642018715" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="-4.40378000201" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="finger_L0" parent="meta_L0.root" root_size="0.3" type="chain_01">
+  <settings>
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="comp_side" value="L" valueType="8" />
+   <parameter scriptName="comp_type" value="chain_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="blend" value="0" valueType="3" />
+   <parameter scriptName="comp_name" value="finger" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="type" value="0" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="guide.finger_L0_0_loc" id="1646" localName="0_loc" model="guide" name="finger_L0_0_loc" owners="guide.finger_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="10.6023082739" valueType="5" />
+      <parameter scriptName="posy" value="5.65547697358" valueType="5" />
+      <parameter scriptName="posz" value="0.804457730618" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="-4.40378000201" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L0_1_loc" id="1659" localName="1_loc" model="guide" name="finger_L0_1_loc" owners="guide.finger_L0_0_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="11.0651791254" valueType="5" />
+      <parameter scriptName="posy" value="5.16888249307" valueType="5" />
+      <parameter scriptName="posz" value="0.850684839126" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="-4.40378000201" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L0_2_loc" id="1672" localName="2_loc" model="guide" name="finger_L0_2_loc" owners="guide.finger_L0_1_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="11.3195808526" valueType="5" />
+      <parameter scriptName="posy" value="4.70126641504" valueType="5" />
+      <parameter scriptName="posz" value="0.881310298513" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="-4.40378000201" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L0_blade" id="1685" localName="blade" model="guide" name="finger_L0_blade" owners="guide.finger_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" source="constraint" value="9.9800085991" valueType="5" />
+      <parameter scriptName="posy" source="constraint" value="6.03137883678" valueType="5" />
+      <parameter scriptName="posz" source="constraint" value="0.749563039264" valueType="5" />
+      <parameter scriptName="rotx" source="constraint" value="-101.316224906" valueType="5" />
+      <parameter scriptName="roty" source="constraint" value="-94.403780002" valueType="5" />
+      <parameter scriptName="rotz" source="constraint" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.finger_L0_root" id="1633" localName="root" model="guide" name="finger_L0_root" owners="guide.meta_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="9.9800085991" valueType="5" />
+      <parameter scriptName="posy" value="6.03137883678" valueType="5" />
+      <parameter scriptName="posz" value="0.749563039264" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="-4.40378000201" valueType="5" />
+      <parameter scriptName="rotz" value="-19.785328355" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="thumb_L0" parent="arm_L0.wrist" root_size="0.3" type="chain_01">
+  <settings>
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="comp_side" value="L" valueType="8" />
+   <parameter scriptName="comp_type" value="chain_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="blend" value="0" valueType="3" />
+   <parameter scriptName="comp_name" value="thumb" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="type" value="0" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="guide.thumb_L0_0_loc" id="2133" localName="0_loc" model="guide" name="thumb_L0_0_loc" owners="guide.thumb_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="9.65220320386" valueType="5" />
+      <parameter scriptName="posy" value="5.89806627516" valueType="5" />
+      <parameter scriptName="posz" value="1.60854798823" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="-50.199366336" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.thumb_L0_1_loc" id="2146" localName="1_loc" model="guide" name="thumb_L0_1_loc" owners="guide.thumb_L0_0_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="10.0739831803" valueType="5" />
+      <parameter scriptName="posy" value="5.3918416085" valueType="5" />
+      <parameter scriptName="posz" value="1.95554052768" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="-50.199366336" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.thumb_L0_2_loc" id="2159" localName="2_loc" model="guide" name="thumb_L0_2_loc" owners="guide.thumb_L0_1_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="10.5179621028" valueType="5" />
+      <parameter scriptName="posy" value="4.85897353834" valueType="5" />
+      <parameter scriptName="posz" value="1.8745756018" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="-50.199366336" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.thumb_L0_blade" id="2172" localName="blade" model="guide" name="thumb_L0_blade" owners="guide.thumb_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" source="constraint" value="9.31921901195" valueType="5" />
+      <parameter scriptName="posy" source="constraint" value="6.29771732778" valueType="5" />
+      <parameter scriptName="posz" source="constraint" value="1.122758433" valueType="5" />
+      <parameter scriptName="rotx" source="constraint" value="90.0" valueType="5" />
+      <parameter scriptName="roty" source="constraint" value="-46.9586165277" valueType="5" />
+      <parameter scriptName="rotz" source="constraint" value="129.800633664" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="guide.thumb_L0_root" id="2120" localName="root" model="guide" name="thumb_L0_root" owners="guide.arm_L0_wrist,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="9.31921901195" valueType="5" />
+      <parameter scriptName="posy" value="6.29771732778" valueType="5" />
+      <parameter scriptName="posz" value="1.122758433" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="-50.199366336" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+</guide>
